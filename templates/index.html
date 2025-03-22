@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Yogapathy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- Start Nav -->
+  	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+  		<div class="container">
+  			<div class="row m-auto">
+  				<div class="col-12 w-100 text-center">
+  					<a class="navbar-brand w-100" href="index.html">Yogapathy</a>
+			      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+			        <span class="oi oi-menu"></span> Menu
+			      </button>
+  				</div>
+  				<div class="col-12 w-100 text-center">
+  					<div class="collapse navbar-collapse" id="ftco-nav">
+			        <ul class="navbar-nav m-auto">
+			          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+			          <li class="nav-item"><a href="therapy.html" class="nav-link">Therapy</a></li>
+                      <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+			          <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+			        </ul>
+			      </div>
+  				</div>
+  			</div>
+  		</div>
+	  </nav>
+    <!-- END nav -->
+
+
+
+
+    <!-- Slider Start -->
+    <section class="home-slider js-fullheight owl-carousel">
+      <!-- Slider Item 1 -->
+      <div class="slider-item js-fullheight" style="background-image:url(images/bg_1.jpg);">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
+            <div class="col-md-10 text ftco-animate text-center">
+              <!-- <h1 class="mb-4">Discover Your Inner Healing</h1>
+              <h3 class="subheading">Everyday We Bring Hope and Smile to the Patient We Serve</h3> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Slider Item 2 -->
+      <div class="slider-item js-fullheight" style="background-image:url(images/bg_2.jpg);">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
+            <div class="col-md-10 text ftco-animate text-center">
+              <!-- <h1 class="mb-4">Lighting Your Heart &amp; Mind</h1>
+              <h3 class="subheading">Your Health is Our Top Priority with Comprehensive, Affordable medical.</h3> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- CSS Styling -->
+    <style>
+      /* Slider Section Styling */
+      .home-slider {
+        position: relative;
+        height: 100vh;
+        overflow: hidden;
+      }
+    
+      .slider-item {
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+      }
+    
+      .slider-item .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text readability */
+      }
+    
+      .slider-text {
+        position: relative;
+        z-index: 1;
+        color: #fff;
+        text-align: center;
+      }
+    
+      .slider-text h1 {
+        font-size: 4rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+    
+      .slider-text .subheading {
+        font-size: 1.5rem;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+      }
+    
+      /* Owl Carousel Navigation Arrows */
+      .owl-nav {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        transform: translateY(-50%);
+      }
+    
+      .owl-prev,
+      .owl-next {
+        background: rgba(255, 255, 255, 0.3);
+        color: #fff;
+        font-size: 2rem;
+        padding: 10px 20px;
+        border-radius: 50%;
+        transition: background 0.3s ease;
+      }
+    
+      .owl-prev:hover,
+      .owl-next:hover {
+        background: rgba(255, 255, 255, 0.7);
+      }
+    </style>
+    
+    <!-- JavaScript for Slider -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Initialize Owl Carousel
+        $('.home-slider').owlCarousel({
+          items: 1,
+          loop: true,
+          autoplay: true,
+          autoplayTimeout: 5000,
+          autoplayHoverPause: true,
+          nav: true,
+          navText: [
+            '<i class="fas fa-chevron-left"></i>',
+            '<i class="fas fa-chevron-right"></i>',
+          ],
+        });
+      });
+    </script>
+    
+    <!-- Font Awesome for Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Slider End -->
+
+      
+    <!-- Section Start -->
+    <section class="ftco-section bg-light">
+      <style>
+          .ftco-section {
+              padding: 7em 0;
+          }
+          .bg-light {
+              background-color: #f8f9fa !important;
+          }
+          .container {
+              width: 100%;
+              padding-right: 15px;
+              padding-left: 15px;
+              margin-right: auto;
+              margin-left: auto;
+          }
+          .row {
+              display: flex;
+              flex-wrap: wrap;
+              margin-right: -15px;
+              margin-left: -15px;
+          }
+          .col-md-3 {
+              flex: 0 0 25%;
+              max-width: 25%;
+              padding-right: 15px;
+              padding-left: 15px;
+          }
+          .d-flex {
+              display: flex !important;
+          }
+          .align-items-stretch {
+              align-items: stretch !important;
+          }
+          .offer-deal {
+              background: #fff;
+              border-radius: 10px;
+              box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+              overflow: hidden;
+              height: 100%;
+              transition: transform 0.3s ease;
+          }
+          .offer-deal:hover {
+              transform: translateY(-10px);
+          }
+          .img {
+              height: 200px;
+              background-size: cover;
+              background-position: center;
+          }
+          .text {
+              padding: 20px;
+          }
+          .text h3 {
+              font-size: 24px;
+              font-weight: 700;
+              margin-bottom: 15px;
+          }
+          .text p {
+              font-size: 16px;
+              color: #666;
+              margin-bottom: 20px;
+          }
+          .text-center {
+              text-align: center !important;
+          }
+          .mt-4 {
+              margin-top: 1.5rem !important;
+          }
+          .mb-4 {
+              margin-bottom: 1.5rem !important;
+          }
+          .mb-5 {
+              margin-bottom: 3rem !important;
+          }
+      </style>
+      <div class="container">
+          <div class="row">
+              <div class="col-md-3 d-flex align-items-stretch">
+                  <div class="offer-deal text-center">
+                      <div class="img" style="background-image: url(images/tclasses-1.jpg);"></div>
+                      <div class="text mt-4">
+                          <h3 class="mb-4">Calm Mind Therapy</h3>
+                          <p class="mb-5">This therapy helps relax the nervous system and reduce mental stress through calming yoga postures and breathwork. Gentle asanas and pranayama techniques improve emotional balance and promote inner peace.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3 d-flex align-items-stretch">
+                  <div class="offer-deal text-center">
+                      <div class="img" style="background-image: url(images/tclasses-2.jpg);"></div>
+                      <div class="text mt-4">
+                          <h3 class="mb-4">Spinal Wellness</h3>
+                          <p class="mb-5">Designed to strengthen the spine and relieve back pain, this program includes targeted yoga postures and stretches. Regular practice improves flexibility, corrects posture, and reduces muscle stiffness.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3 d-flex align-items-stretch">
+                  <div class="offer-deal text-center">
+                      <div class="img" style="background-image: url(images/tclasses-3.jpg);"></div>
+                      <div class="text mt-4">
+                          <h3 class="mb-4">Gut Cleanse Yoga</h3>
+                          <p class="mb-5">A therapeutic program to relieve indigestion, bloating, and constipation through yoga asanas and kriyas. Specific postures stimulate digestion, while pranayama enhances metabolism and gut health.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3 d-flex align-items-stretch">
+                  <div class="offer-deal text-center">
+                      <div class="img" style="background-image: url(images/tclasses-4.jpg);"></div>
+                      <div class="text mt-4">
+                          <h3 class="mb-4">Deep Sleep</h3>
+                          <p class="mb-5">This therapy helps improve sleep quality by calming the mind and relaxing the body. Gentle yoga postures, breathing exercises, and meditation techniques reduce stress and promote deep rest.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- Section ENd -->
+
+
+    
+
+    <section class="yoga-benefits-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-8 text-center">
+            <h2>Why Choose Yoga Therapy?</h2>
+            <p class="subheading">Discover the transformative benefits of yoga therapy for your body, mind, and soul.</p>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Benefit 1 -->
+          <div class="col-md-4">
+            <div class="benefit-card">
+              <div class="benefit-icon">
+                <i class="fas fa-heartbeat"></i>
+              </div>
+              <h3>Improves Heart Health</h3>
+              <p>Yoga therapy helps lower blood pressure, improve circulation, and strengthen your heart.</p>
+            </div>
+          </div>
+    
+          <!-- Benefit 2 -->
+          <div class="col-md-4">
+            <div class="benefit-card">
+              <div class="benefit-icon">
+                <i class="fas fa-brain"></i>
+              </div>
+              <h3>Boosts Mental Clarity</h3>
+              <p>Enhance focus, reduce stress, and achieve mental peace through guided yoga practices.</p>
+            </div>
+          </div>
+    
+          <!-- Benefit 3 -->
+          <div class="col-md-4">
+            <div class="benefit-card">
+              <div class="benefit-icon">
+                <i class="fas fa-spa"></i>
+              </div>
+              <h3>Promotes Relaxation</h3>
+              <p>Relieve tension, calm your mind, and rejuvenate your body with therapeutic yoga sessions.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-12 text-center">
+            <a href="#" class="btn btn-primary">Explore Our Programs</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Font Awesome for Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+    <!-- CSS Styling -->
+    <style>
+      /* Section Styling */
+      .yoga-benefits-section {
+        padding: 80px 0;
+        background-color: #f8f9fa;
+      }
+    
+      .yoga-benefits-section h2 {
+        font-size: 2.5rem;
+        color: #333;
+        margin-bottom: 10px;
+      }
+    
+      .yoga-benefits-section .subheading {
+        font-size: 1.1rem;
+        color: #666;
+        margin-bottom: 40px;
+      }
+    
+      /* Benefit Card Styling */
+      .benefit-card {
+        background: #fff;
+        border-radius: 10px;
+        padding: 30px;
+        text-align: center;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+    
+      .benefit-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+      }
+    
+      .benefit-icon {
+        font-size: 2.5rem;
+        color: #28a745;
+        margin-bottom: 20px;
+        transition: transform 0.3s ease;
+      }
+    
+      .benefit-card:hover .benefit-icon {
+        transform: rotate(15deg);
+      }
+    
+      .benefit-card h3 {
+        font-size: 1.5rem;
+        color: #333;
+        margin-bottom: 15px;
+      }
+    
+      .benefit-card p {
+        font-size: 1rem;
+        color: #666;
+        line-height: 1.6;
+      }
+    
+      /* Button Styling */
+      .btn-primary {
+        background-color: #28a745;
+        color: #fff;
+        padding: 12px 30px;
+        border-radius: 50px;
+        font-size: 1rem;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+      }
+    
+      .btn-primary:hover {
+        background-color: #218838;
+      }
+    
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .yoga-benefits-section h2 {
+          font-size: 2rem;
+        }
+    
+        .benefit-card {
+          margin-bottom: 20px;
+        }
+    
+        .benefit-card h3 {
+          font-size: 1.3rem;
+        }
+    
+        .benefit-card p {
+          font-size: 0.9rem;
+        }
+      }
+    </style>
+
+
+
+    <section class="ftco-section" style="background-color: #f8f9fa;">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-12 heading-section ftco-animate text-center">
+            <h2 class="mb-1">Experience of Yogic Therapy</h2>
+            <p class="subheading">Discover the transformative power of yoga for your body and mind.</p>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Left Column - Services -->
+          <div class="col-md-4">
+            <div class="services-2 ftco-animate d-flex w-100">
+              <div class="icon d-flex justify-content-center align-items-center order-md-last">
+                <span class="flaticon-meditation"></span>
+              </div>
+              <div class="text text-md-right pl-4 pl-md-0 pr-md-4">
+                <h3>Balance Body &amp; Mind</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+            <div class="services-2 ftco-animate d-flex w-100">
+              <div class="icon d-flex justify-content-center align-items-center order-md-last">
+                <span class="flaticon-meditation"></span>
+              </div>
+              <div class="text text-md-right pl-4 pl-md-0 pr-md-4">
+                <h3>Healthy Daily Life</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+            <div class="services-2 ftco-animate d-flex w-100">
+              <div class="icon d-flex justify-content-center align-items-center order-md-last">
+                <span class="flaticon-meditation"></span>
+              </div>
+              <div class="text text-md-right pl-4 pl-md-0 pr-md-4">
+                <h3>Improves your Immunity</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+            <div class="services-2 ftco-animate d-flex w-100">
+              <div class="icon d-flex justify-content-center align-items-center order-md-last">
+                <span class="flaticon-meditation"></span>
+              </div>
+              <div class="text text-md-right pl-4 pl-md-0 pr-md-4">
+                <h3>Protects your Body</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Middle Column - Image -->
+          <div class="col-md-4 d-flex">
+            <div class="img img-services w-100" style="background-image: url(images/services.jpg);"></div>
+          </div>
+    
+          <!-- Right Column - Services -->
+          <div class="col-md-4">
+            <div class="services-2 ftco-animate d-flex w-100">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <span class="flaticon-meditation"></span>
+              </div>
+              <div class="text text-left pl-4">
+                <h3>Betters your heart health</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+            <div class="services-2 ftco-animate d-flex w-100">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <span class="flaticon-meditation"></span>
+              </div>
+              <div class="text text-left pl-4">
+                <h3>Increases your blood flow</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+            <div class="services-2 ftco-animate d-flex w-100">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <span class="flaticon-meditation"></span>
+              </div>
+              <div class="text text-left pl-4">
+                <h3>Calm Mind</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+            <div class="services-2 ftco-animate d-flex w-100">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <span class="flaticon-meditation"></span>
+              </div>
+              <div class="text text-left pl-4">
+                <h3>Builds inner strength</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Font Awesome for Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+    <!-- CSS Styling -->
+    <style>
+      /* Section Styling */
+      .ftco-section {
+        padding: 80px 0;
+        background-color: #f8f9fa;
+      }
+    
+      .heading-section h2 {
+        font-size: 2.5rem;
+        color: #333;
+        margin-bottom: 10px;
+      }
+    
+      .heading-section .subheading {
+        font-size: 1rem;
+        color: #666;
+      }
+    
+      /* Services Styling */
+      .services-2 {
+        background: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+    
+      .services-2:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+      }
+    
+      .services-2 .icon {
+        width: 60px;
+        height: 60px;
+        background-color: #28a745;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 1.5rem;
+        transition: background-color 0.3s ease;
+      }
+    
+      .services-2:hover .icon {
+        background-color: #218838;
+      }
+    
+      .services-2 h3 {
+        font-size: 1.25rem;
+        color: #333;
+        margin-bottom: 10px;
+      }
+    
+      .services-2 p {
+        font-size: 0.9rem;
+        color: #666;
+        line-height: 1.6;
+      }
+    
+      /* Image Styling */
+      .img-services {
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+    
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .heading-section h2 {
+          font-size: 2rem;
+        }
+    
+        .services-2 {
+          padding: 15px;
+        }
+    
+        .services-2 h3 {
+          font-size: 1.1rem;
+        }
+    
+        .services-2 p {
+          font-size: 0.85rem;
+        }
+    
+        .img-services {
+          height: 300px;
+          margin-bottom: 20px;
+        }
+      }
+    </style>
+
+
+
+
+    <!-- <section class="ftco-section">
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-12 heading-section ftco-animate text-center">
+            <h2 class="mb-1">Experience of Yogic Therapy</h2>
+          </div>
+        </div>
+    		<div class="row">
+    			<div class="col-md-4">
+    				<div class="services-2 ftco-animate d-flex w-100">
+							<div class="icon d-flex justify-content-center align-items-center order-md-last">
+								<span class="flaticon-meditation"></span>
+							</div>
+							<div class="text text-md-right pl-4 pl-md-0 pr-md-4">
+								<h3>Balance Body &amp; Mind</h3>
+								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+							</div>
+						</div>
+						<div class="services-2 ftco-animate d-flex w-100">
+							<div class="icon d-flex justify-content-center align-items-center order-md-last">
+								<span class="flaticon-meditation"></span>
+							</div>
+							<div class="text text-md-right pl-4 pl-md-0 pr-md-4">
+								<h3>Healthy Daily Life</h3>
+								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+							</div>
+						</div>
+						<div class="services-2 ftco-animate d-flex w-100">
+							<div class="icon d-flex justify-content-center align-items-center order-md-last">
+								<span class="flaticon-meditation"></span>
+							</div>
+							<div class="text text-md-right pl-4 pl-md-0 pr-md-4">
+								<h3>Improves your Immunity</h3>
+								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+							</div>
+						</div>
+						<div class="services-2 ftco-animate d-flex w-100">
+							<div class="icon d-flex justify-content-center align-items-center order-md-last">
+								<span class="flaticon-meditation"></span>
+							</div>
+							<div class="text text-md-right pl-4 pl-md-0 pr-md-4">
+								<h3>Protects your Body</h3>
+								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+							</div>
+						</div>
+    			</div>
+
+    			<div class="col-md-4 d-flex">
+    				<div class="img img-services w-100" style="background-image: url(images/services.jpg);"></div>
+    			</div>
+
+    			<div class="col-md-4">
+    				<div class="services-2 ftco-animate d-flex w-100">
+							<div class="icon d-flex justify-content-center align-items-center\">
+								<span class="flaticon-meditation"></span>
+							</div>
+							<div class="text text-left pl-4">
+								<h3>Betters your heart health</h3>
+								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+							</div>
+						</div>
+						<div class="services-2 ftco-animate d-flex w-100">
+							<div class="icon d-flex justify-content-center align-items-center\">
+								<span class="flaticon-meditation"></span>
+							</div>
+							<div class="text text-left pl-4">
+								<h3>Increases your blood flow</h3>
+								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+							</div>
+						</div>
+						<div class="services-2 ftco-animate d-flex w-100">
+							<div class="icon d-flex justify-content-center align-items-center\">
+								<span class="flaticon-meditation"></span>
+							</div>
+							<div class="text text-left pl-4">
+								<h3>Calm Mind</h3>
+								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+							</div>
+						</div>
+						<div class="services-2 ftco-animate d-flex w-100">
+							<div class="icon d-flex justify-content-center align-items-center\">
+								<span class="flaticon-meditation"></span>
+							</div>
+							<div class="text text-left pl-4">
+								<h3>Builds inner strength</h3>
+								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+							</div>
+						</div>
+    			</div>
+    		</div>
+    	</div>
+    </section> -->
+
+    
+
+    <section class="ftco-section testimony-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-10 heading-section ftco-animate text-center">
+            <h3 class="subheading">Testimony</h3>
+            <h2 class="mb-1">Successful Stories</h2>
+          </div>
+        </div>
+        <div class="row ftco-animate">
+          <div class="col-md-12">
+            <div class="carousel-testimony owl-carousel">
+              <div class="item">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="text">
+                  	<div class="line">
+	                    <p class="mb-4 pb-1">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+	                    <span class="quote d-flex align-items-center justify-content-center">
+	                      <i class="icon-quote-left"></i>
+	                    </span>
+	                  </div>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/person_1.jpg)">
+		                  </div>
+		                  <div class="ml-4">
+		                  	<p class="name">Gabby Smith</p>
+		                    <span class="position">Customer</span>
+		                  </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="text">
+                    <div class="line">
+	                    <p class="mb-4 pb-1">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+	                    <span class="quote d-flex align-items-center justify-content-center">
+	                      <i class="icon-quote-left"></i>
+	                    </span>
+	                  </div>
+
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/person_2.jpg)">
+		                  </div>
+		                  <div class="ml-4">
+		                  	<p class="name">Floyd Weather</p>
+		                    <span class="position">Customer</span>
+		                  </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="text">
+                    <div class="line">
+	                    <p class="mb-4 pb-1">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+	                    <span class="quote d-flex align-items-center justify-content-center">
+	                      <i class="icon-quote-left"></i>
+	                    </span>
+	                  </div>
+
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/person_3.jpg)">
+		                  </div>
+		                  <div class="ml-4">
+		                  	<p class="name">James Dee</p>
+		                    <span class="position">Customer</span>
+		                  </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="text">
+                    <div class="line">
+	                    <p class="mb-4 pb-1">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+	                    <span class="quote d-flex align-items-center justify-content-center">
+	                      <i class="icon-quote-left"></i>
+	                    </span>
+	                  </div>
+
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/person_4.jpg)">
+		                  </div>
+		                  <div class="ml-4">
+		                  	<p class="name">Lance Roger</p>
+		                    <span class="position">Customer</span>
+		                  </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="text">
+                    <div class="line">
+	                    <p class="mb-4 pb-1">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+	                    <span class="quote d-flex align-items-center justify-content-center">
+	                      <i class="icon-quote-left"></i>
+	                    </span>
+	                  </div>
+
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/person_2.jpg)">
+		                  </div>
+		                  <div class="ml-4">
+		                  	<p class="name">Kenny Bufer</p>
+		                    <span class="position">Customer</span>
+		                  </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- <section class="ftco-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center">
+            <h2 class="mb-1">Recent Posts</h2>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+              </a>
+              <div class="text w-100 mt-3">
+              	<div class="meta">
+                  <div><a href="#">July. 14, 2019</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mt-2"><a href="#">Is wellness the new luxury</a></h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+              </a>
+              <div class="text w-100 mt-3">
+              	<div class="meta">
+                  <div><a href="#">July. 14, 2019</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mt-2"><a href="#">Is wellness the new luxury</a></h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+              </a>
+              <div class="text w-100 mt-3">
+              	<div class="meta">
+                  <div><a href="#">July. 14, 2019</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mt-2"><a href="#">Is wellness the new luxury</a></h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+		
+
+    
+    <!-- Footer Here -->
+    <footer class="ftco-footer ftco-section bg-light">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Yogapathy</h2>
+              <p>Discover holistic healing with Yogapathy – your guide to personalized yoga therapy for a healthier mind and body. Empower your wellness journey with us.</p>
+            </div>
+          </div>
+
+
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Popular Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="templates/therapyguide.html">Therapy Guide</a></li>
+                <li><a href="templates/yogicroutine.html">Yogic Routine</a></li>
+                <li><a href="templates/ayurvedicfood.html">Ayurvedic Super Food</a></li>
+                <li><a href="templates/meditation.html">Meditation Guide</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Quick Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="therapy.html">Therapy</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Have a Questions?</h2>
+              <div class="block-23 mb-3">
+                <ul>
+                  <li><span class="icon icon-map-marker"></span><span class="text">Dev Sanskriti Vishwavidyalaya </span></li>
+                  <li><a href="#"><span class="icon icon-phone"></span><span class="text">9754530312</span></a></li>
+                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">dsvv.nls@gmail.com</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p class="mb-0">
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy;<script>
+                document.write(new Date().getFullYear());
+
+              </script> All rights reserved | Yogapathy 
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
