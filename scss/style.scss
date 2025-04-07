@@ -238,13 +238,13 @@ h1, h2, h3, h4, h5,
 		.nav-item {
 			&.active {
 				> a {
-					color: $primary!important;
+					color: #4e6151;
 				}
 			}
 			&.cta {
 				> a {
 					color: $white !important;
-					background: $primary;
+					background: #4e6151;
 					border: none !important;
 					 
 					span {
@@ -293,7 +293,7 @@ h1, h2, h3, h4, h5,
 			padding-bottom: .5rem!important;
 			color: $black!important;
 			&.active {
-				color: $primary!important;
+				color: #4e6151;
 			}
 		}
 		&.awake {

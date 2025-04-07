@@ -1,116 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Obesity Therapy</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        .therapy-header {
-            background-color: #388E3C;
-            color: white;
-            padding: 30px;
-            font-size: 36px;
-            font-weight: bold;
-            text-transform: uppercase;
-            border-bottom: 5px solid #2E7D32;
-            letter-spacing: 2px;
-        }
-        .container {
-            max-width: 900px;
-            margin: 30px auto;
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-            text-align: left;
-        }
-        h2 {
-            color: #388E3C;
-            border-bottom: 3px solid #388E3C;
-            padding-bottom: 10px;
-            font-size: 26px;
-        }
-        p, ul {
-            font-size: 18px;
-            line-height: 1.8;
-        }
-        ul {
-            list-style-type: square;
-            margin-left: 20px;
-        }
-        .highlight {
-            font-weight: bold;
-            color: #D84315;
-        }
-        .footer {
-            background-color: #2E7D32;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 30px;
-            font-size: 18px;
-            border-top: 5px solid #388E3C;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Obesity Therapy</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #94e8b4;
+      color: #2f4f4f;
+    }
+
+    .therapy-header {
+      background: linear-gradient(to right, #5e8c61, #72bda3);
+      color: white;
+      padding: 30px;
+      font-size: 40px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-align: center;
+      border-bottom: 5px solid #5e8c61;
+      animation: slideIn 1.5s ease-out;
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(-100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .container {
+      width: 100%;
+      padding: 40px 80px;
+      background-color: white;
+      box-sizing: border-box;
+    }
+
+    h2 {
+      color: #5e8c61;
+      border-bottom: 3px solid #72bda3;
+      padding-bottom: 8px;
+      font-size: 28px;
+    }
+
+    h3 {
+      color: #5e8c61;
+      font-size: 22px;
+    }
+
+    p, ul {
+      font-size: 18px;
+      line-height: 1.7;
+    }
+
+    ul {
+      list-style-type: square;
+      margin-left: 40px;
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: #d84315;
+    }
+
+    .fact-box {
+      background-color: #e8f5e9;
+      border-left: 5px solid #72bda3;
+      padding: 15px;
+      margin: 25px 0;
+      font-style: italic;
+    }
+
+    .footer {
+      background: linear-gradient(to right, #5e8c61, #72bda3);
+      color: white;
+      text-align: center;
+      padding: 25px;
+      font-size: 18px;
+      border-top: 5px solid #5e8c61;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 30px 20px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      p, ul {
+        font-size: 16px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="therapy-header">Obesity Therapy</div>
-    <div class="container">
-        <h2>Causes of Obesity</h2>
-        <p>Obesity can be caused by multiple factors:</p>
-        <ul>
-            <li><span class="highlight">Poor Diet:</span> Excessive consumption of processed and high-calorie foods.</li>
-            <li><span class="highlight">Lack of Physical Activity:</span> Sedentary lifestyle contributes to weight gain.</li>
-            <li><span class="highlight">Genetics:</span> Some people have a genetic predisposition to obesity.</li>
-            <li><span class="highlight">Hormonal Imbalances:</span> Conditions like hypothyroidism can lead to weight gain.</li>
-        </ul>
-        
-        <h2>Yogic Therapy Cure</h2>
-        <h3>Asanas (Postures)</h3>
-        <ul>
-            <li><span class="highlight">Surya Namaskar (Sun Salutation):</span> 12 rounds daily for weight management.</li>
-            <li><span class="highlight">Trikonasana (Triangle Pose):</span> Helps in reducing belly fat.</li>
-            <li><span class="highlight">Bhujangasana (Cobra Pose):</span> Boosts metabolism.</li>
-        </ul>
-        
-        <h3>Pranayama (Breathing Exercises)</h3>
-        <ul>
-            <li><span class="highlight">Kapalabhati:</span> 5 minutes daily to burn calories.</li>
-            <li><span class="highlight">Bhastrika:</span> Increases metabolism and energy levels.</li>
-            <li><span class="highlight">Anulom Vilom:</span> Aids in balancing digestion.</li>
-        </ul>
-        
-        <h2>Dietary Recommendations</h2>
-        <ul>
-            <li>Consume <span class="highlight">fiber-rich foods</span> like vegetables, fruits, and whole grains.</li>
-            <li>Avoid <span class="highlight">sugary drinks</span> and processed snacks.</li>
-            <li>Drink plenty of water to stay hydrated.</li>
-        </ul>
-        
-        <h2>Lifestyle Changes</h2>
-        <ul>
-            <li>Engage in <span class="highlight">daily physical activities</span> like walking or yoga.</li>
-            <li>Maintain a balanced routine and manage stress effectively.</li>
-            <li>Get enough sleep to regulate metabolism.</li>
-        </ul>
-        
-        <h2>Precautions</h2>
-        <ul>
-            <li>Avoid crash diets that may harm overall health.</li>
-            <li>Consult a nutritionist for a personalized diet plan.</li>
-            <li>Stay consistent with your exercise and yoga routine.</li>
-        </ul>
-    </div>
-    <div class="footer">
-        <p>&copy; 2025 Obesity Therapy Guide | All Rights Reserved</p>
-        <p>For expert advice, consult a yoga therapist.</p>
-    </div>
+
+  <div class="therapy-header">Obesity Therapy</div>
+
+  <div class="container">
+    <h2>Causes of Obesity</h2>
+    <p>Obesity can be caused by multiple factors:</p>
+    <ul>
+      <li><span class="highlight">Poor Diet:</span> Excessive consumption of processed and high-calorie foods.</li>
+      <li><span class="highlight">Lack of Physical Activity:</span> Sedentary lifestyle contributes to weight gain.</li>
+      <li><span class="highlight">Genetics:</span> Some people have a genetic predisposition to obesity.</li>
+      <li><span class="highlight">Hormonal Imbalances:</span> Conditions like hypothyroidism can lead to weight gain.</li>
+    </ul>
+
+    <h2>Yogic Therapy Cure</h2>
+    <p>Yoga, when practiced regularly, helps regulate metabolism and reduces excess fat.</p>
+
+    <h3>Asanas (Postures)</h3>
+    <ul>
+      <li><span class="highlight">Surya Namaskar (Sun Salutation):</span> 12 rounds daily for weight management.</li>
+      <li><span class="highlight">Trikonasana (Triangle Pose):</span> Helps in reducing belly fat.</li>
+      <li><span class="highlight">Bhujangasana (Cobra Pose):</span> Boosts metabolism.</li>
+    </ul>
+
+    <h3>Pranayama (Breathing Exercises)</h3>
+    <ul>
+      <li><span class="highlight">Kapalabhati:</span> 5 minutes daily to burn calories.</li>
+      <li><span class="highlight">Bhastrika:</span> Increases metabolism and energy levels.</li>
+      <li><span class="highlight">Anulom Vilom:</span> Aids in balancing digestion.</li>
+    </ul>
+
+    <h2>Dietary Recommendations</h2>
+    <ul>
+      <li>Consume <span class="highlight">fiber-rich foods</span> like vegetables, fruits, and whole grains.</li>
+      <li>Avoid <span class="highlight">sugary drinks</span> and processed snacks.</li>
+      <li>Drink plenty of water to stay hydrated.</li>
+    </ul>
+
+    <h2>Lifestyle Changes</h2>
+    <ul>
+      <li>Engage in <span class="highlight">daily physical activities</span> like walking or yoga.</li>
+      <li>Maintain a balanced routine and manage stress effectively.</li>
+      <li>Get enough sleep to regulate metabolism.</li>
+    </ul>
+
+    <h2>Precautions</h2>
+    <ul>
+      <li>Avoid crash diets that may harm overall health.</li>
+      <li>Consult a nutritionist for a personalized diet plan.</li>
+      <li>Stay consistent with your exercise and yoga routine.</li>
+    </ul>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2025 Obesity Therapy Guide | All Rights Reserved</p>
+    <p>For expert advice, consult a certified yoga therapist.</p>
+  </div>
+
 </body>
 </html>

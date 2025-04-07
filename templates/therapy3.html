@@ -1,116 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gut Cleanse Therapy</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        .therapy-header {
-            background-color: #388E3C;
-            color: white;
-            padding: 30px;
-            font-size: 36px;
-            font-weight: bold;
-            text-transform: uppercase;
-            border-bottom: 5px solid #2E7D32;
-            letter-spacing: 2px;
-        }
-        .container {
-            max-width: 900px;
-            margin: 30px auto;
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-            text-align: left;
-        }
-        h2 {
-            color: #388E3C;
-            border-bottom: 3px solid #388E3C;
-            padding-bottom: 10px;
-            font-size: 26px;
-        }
-        p, ul {
-            font-size: 18px;
-            line-height: 1.8;
-        }
-        ul {
-            list-style-type: square;
-            margin-left: 20px;
-        }
-        .highlight {
-            font-weight: bold;
-            color: #D84315;
-        }
-        .footer {
-            background-color: #2E7D32;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 30px;
-            font-size: 18px;
-            border-top: 5px solid #388E3C;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gut Cleanse Therapy</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #e1f5fe;
+      color: #2e3c3c;
+    }
+
+    .therapy-header {
+      background: linear-gradient(to right, #0288d1, #26c6da);
+      color: white;
+      padding: 30px;
+      font-size: 40px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-align: center;
+      border-bottom: 5px solid #0288d1;
+      animation: slideIn 1.5s ease-out;
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(-100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .container {
+      width: 100%;
+      padding: 40px 80px;
+      background-color: white;
+      box-sizing: border-box;
+    }
+
+    h2 {
+      color: #0288d1;
+      border-bottom: 3px solid #26c6da;
+      padding-bottom: 8px;
+      font-size: 28px;
+    }
+
+    h3 {
+      color: #0288d1;
+      font-size: 22px;
+    }
+
+    p, ul {
+      font-size: 18px;
+      line-height: 1.7;
+    }
+
+    ul {
+      list-style-type: square;
+      margin-left: 40px;
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: #d84315;
+    }
+
+    .fact-box {
+      background-color: #e0f7fa;
+      border-left: 5px solid #26c6da;
+      padding: 15px;
+      margin: 25px 0;
+      font-style: italic;
+    }
+
+    .footer {
+      background: linear-gradient(to right, #0288d1, #26c6da);
+      color: white;
+      text-align: center;
+      padding: 25px;
+      font-size: 18px;
+      border-top: 5px solid #0288d1;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 30px 20px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      p, ul {
+        font-size: 16px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="therapy-header">Gut Cleanse Therapy</div>
-    <div class="container">
-        <h2>Causes of Poor Gut Health</h2>
-        <p>Unhealthy gut can be caused by several factors:</p>
-        <ul>
-            <li><span class="highlight">Poor Diet:</span> Processed and junk foods disrupt gut flora.</li>
-            <li><span class="highlight">Stress:</span> Mental stress negatively affects digestion.</li>
-            <li><span class="highlight">Antibiotics:</span> Frequent antibiotic use kills good bacteria.</li>
-            <li><span class="highlight">Dehydration:</span> Lack of water affects digestion and absorption.</li>
-        </ul>
-        
-        <h2>Yogic Therapy Cure</h2>
-        <h3>Asanas (Postures)</h3>
-        <ul>
-            <li><span class="highlight">Pawanmuktasana (Wind-Relieving Pose):</span> Hold for 30 seconds.</li>
-            <li><span class="highlight">Uttanpadasana (Raised Leg Pose):</span> Hold for 20 seconds.</li>
-            <li><span class="highlight">Dhanurasana (Bow Pose):</span> Maintain for 30 seconds.</li>
-        </ul>
-        
-        <h3>Pranayama (Breathing Exercises)</h3>
-        <ul>
-            <li><span class="highlight">Kapalbhati:</span> Perform 5-10 minutes daily.</li>
-            <li><span class="highlight">Bhastrika:</span> 5 minutes in the morning.</li>
-            <li><span class="highlight">Nadi Shodhana:</span> 5 minutes daily.</li>
-        </ul>
-        
-        <h2>Dietary Recommendations</h2>
-        <ul>
-            <li>Increase <span class="highlight">fiber intake</span> with fruits & vegetables.</li>
-            <li>Consume <span class="highlight">probiotics</span> like yogurt and fermented foods.</li>
-            <li>Drink <span class="highlight">warm lemon water</span> every morning.</li>
-        </ul>
-        
-        <h2>Lifestyle Changes</h2>
-        <ul>
-            <li>Reduce processed foods and refined sugar.</li>
-            <li>Drink plenty of water daily.</li>
-            <li>Exercise regularly to improve digestion.</li>
-        </ul>
-        
-        <h2>Precautions</h2>
-        <ul>
-            <li>Avoid overeating and maintain portion control.</li>
-            <li>Do not perform yoga on a full stomach.</li>
-            <li>Consult a doctor for severe gut issues.</li>
-        </ul>
+
+  <div class="therapy-header">Gut Cleanse Therapy</div>
+
+  <div class="container">
+    <h2>Causes of Poor Gut Health</h2>
+    <p>Unhealthy gut can be caused by several factors:</p>
+    <ul>
+      <li><span class="highlight">Poor Diet:</span> Processed and junk foods disrupt gut flora.</li>
+      <li><span class="highlight">Stress:</span> Mental stress negatively affects digestion.</li>
+      <li><span class="highlight">Antibiotics:</span> Frequent antibiotic use kills good bacteria.</li>
+      <li><span class="highlight">Dehydration:</span> Lack of water affects digestion and absorption.</li>
+    </ul>
+
+    <div class="fact-box">
+      🌿 <strong>Tip:</strong> A healthy gut improves not only digestion but also boosts mood and immunity.
     </div>
-    <div class="footer">
-        <p>&copy; 2025 Gut Cleanse Therapy Guide | All Rights Reserved</p>
-        <p>For expert advice, consult a yoga therapist.</p>
-    </div>
+
+    <h2>Yogic Therapy Cure</h2>
+
+    <h3>Asanas (Postures)</h3>
+    <ul>
+      <li><span class="highlight">Pawanmuktasana (Wind-Relieving Pose):</span> Hold for 30 seconds.</li>
+      <li><span class="highlight">Uttanpadasana (Raised Leg Pose):</span> Hold for 20 seconds.</li>
+      <li><span class="highlight">Dhanurasana (Bow Pose):</span> Maintain for 30 seconds.</li>
+    </ul>
+
+    <h3>Pranayama (Breathing Exercises)</h3>
+    <ul>
+      <li><span class="highlight">Kapalbhati:</span> Perform for 5-10 minutes daily.</li>
+      <li><span class="highlight">Bhastrika:</span> 5 minutes in the morning.</li>
+      <li><span class="highlight">Nadi Shodhana:</span> 5 minutes daily.</li>
+    </ul>
+
+    <h2>Dietary Recommendations</h2>
+    <ul>
+      <li>Increase <span class="highlight">fiber intake</span> with fruits & vegetables.</li>
+      <li>Consume <span class="highlight">probiotics</span> like yogurt and fermented foods.</li>
+      <li>Drink <span class="highlight">warm lemon water</span> every morning.</li>
+    </ul>
+
+    <h2>Lifestyle Changes</h2>
+    <ul>
+      <li>Reduce processed foods and refined sugar.</li>
+      <li>Drink plenty of water daily.</li>
+      <li>Exercise regularly to improve digestion.</li>
+    </ul>
+
+    <h2>Precautions</h2>
+    <ul>
+      <li>Avoid overeating and maintain portion control.</li>
+      <li>Do not perform yoga on a full stomach.</li>
+      <li>Consult a doctor for severe gut issues.</li>
+    </ul>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2025 Gut Cleanse Therapy Guide | All Rights Reserved</p>
+    <p>For expert advice, consult a certified yoga therapist.</p>
+  </div>
+
 </body>
 </html>

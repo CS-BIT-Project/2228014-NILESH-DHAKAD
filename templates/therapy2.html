@@ -1,118 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calm Mind Therapy</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        .therapy-header {
-            background-color: #3f51b5;
-            color: white;
-            padding: 30px;
-            font-size: 36px;
-            font-weight: bold;
-            text-transform: uppercase;
-            border-bottom: 5px solid #283593;
-            letter-spacing: 2px;
-        }
-        .container {
-            max-width: 900px;
-            margin: 30px auto;
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-            text-align: left;
-        }
-        h2 {
-            color: #3f51b5;
-            border-bottom: 3px solid #3f51b5;
-            padding-bottom: 10px;
-            font-size: 26px;
-        }
-        p, ul {
-            font-size: 18px;
-            line-height: 1.8;
-        }
-        ul {
-            list-style-type: square;
-            margin-left: 20px;
-        }
-        .highlight {
-            font-weight: bold;
-            color: #d84315;
-        }
-        .footer {
-            background-color: #283593;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 30px;
-            font-size: 18px;
-            border-top: 5px solid #3f51b5;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calm Mind Therapy</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #94e8b4;
+      color: #2f4f4f;
+    }
+
+    .therapy-header {
+      background: linear-gradient(to right, #5e8c61, #72bda3);
+      color: white;
+      padding: 30px;
+      font-size: 40px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-align: center;
+      border-bottom: 5px solid #5e8c61;
+      animation: slideIn 1.5s ease-out;
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(-100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .container {
+      width: 100%;
+      padding: 40px 80px;
+      background-color: white;
+      box-sizing: border-box;
+    }
+
+    h2 {
+      color: #5e8c61;
+      border-bottom: 3px solid #72bda3;
+      padding-bottom: 8px;
+      font-size: 28px;
+    }
+
+    h3 {
+      color: #5e8c61;
+      font-size: 22px;
+    }
+
+    p, ul {
+      font-size: 18px;
+      line-height: 1.7;
+    }
+
+    ul {
+      list-style-type: square;
+      margin-left: 40px;
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: #d84315;
+    }
+
+    .fact-box {
+      background-color: #e8f5e9;
+      border-left: 5px solid #72bda3;
+      padding: 15px;
+      margin: 25px 0;
+      font-style: italic;
+    }
+
+    .footer {
+      background: linear-gradient(to right, #5e8c61, #72bda3);
+      color: white;
+      text-align: center;
+      padding: 25px;
+      font-size: 18px;
+      border-top: 5px solid #5e8c61;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 30px 20px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      p, ul {
+        font-size: 16px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="therapy-header">Calm Mind Therapy</div>
-    <div class="container">
-        <h2>Causes of Mental Stress</h2>
-        <p>The mind becomes restless due to various reasons, including:</p>
-        <ul>
-            <li><span class="highlight">Overthinking:</span> Continuous negative or anxious thoughts.</li>
-            <li><span class="highlight">Lack of Sleep:</span> Insufficient rest affecting mental peace.</li>
-            <li><span class="highlight">Poor Diet:</span> Junk food and caffeine increasing stress levels.</li>
-            <li><span class="highlight">Unmanaged Workload:</span> Excess responsibilities causing mental fatigue.</li>
-        </ul>
-        
-        <h2>Yogic Therapy Cure</h2>
-        <p>Yoga and Pranayama help in calming the mind. Below are effective practices:</p>
-        <h3>Asanas (Postures)</h3>
-        <ul>
-            <li><span class="highlight">Shavasana (Corpse Pose):</span> Lie down and relax for 5-10 minutes.</li>
-            <li><span class="highlight">Sukhasana (Easy Pose):</span> Meditative posture for 10-15 minutes.</li>
-            <li><span class="highlight">Balasana (Child's Pose):</span> Hold for 30-60 seconds.</li>
-        </ul>
-        
-        <h3>Pranayama (Breathing Exercises)</h3>
-        <ul>
-            <li><span class="highlight">Anulom Vilom:</span> 5-10 minutes daily.</li>
-            <li><span class="highlight">Bhramari:</span> 5-7 repetitions.</li>
-            <li><span class="highlight">Nadi Shodhana:</span> 5 minutes.</li>
-        </ul>
-        
-        <h2>Dietary Recommendations</h2>
-        <p>Eat foods that promote relaxation and mental clarity:</p>
-        <ul>
-            <li>Consume <span class="highlight">fresh fruits</span> like bananas and berries.</li>
-            <li>Drink <span class="highlight">herbal teas</span> such as chamomile or ashwagandha.</li>
-            <li>Avoid excess caffeine and sugar.</li>
-        </ul>
-        
-        <h2>Lifestyle Changes</h2>
-        <ul>
-            <li>Practice daily <span class="highlight">meditation</span> for mental stability.</li>
-            <li>Reduce screen time before sleeping.</li>
-            <li>Engage in relaxing hobbies like reading or painting.</li>
-        </ul>
-        
-        <h2>Precautions</h2>
-        <ul>
-            <li>Avoid overstimulating activities before bedtime.</li>
-            <li>Do not practice yoga forcefully, maintain comfort.</li>
-            <li>Seek professional help if anxiety persists.</li>
-        </ul>
+
+  <div class="therapy-header">Calm Mind Therapy</div>
+
+  <div class="container">
+    <h2>Introduction</h2>
+    <p>Mental stress has become one of the most common health concerns in today's fast-paced lifestyle. Whether it’s due to work, personal life, or internal overthinking, stress affects our emotional well-being, physical health, and decision-making ability. According to the WHO, depression and anxiety disorders cost the global economy an estimated <span class="highlight">US$ 1 trillion each year</span> in lost productivity.</p>
+
+    <div class="fact-box">
+      🌿 <strong>Fact:</strong> Practicing yoga for just 20 minutes a day can significantly reduce cortisol levels, the primary stress hormone.
     </div>
-    <div class="footer">
-        <p>&copy; 2025 Calm Mind Therapy Guide | All Rights Reserved</p>
-        <p>For expert advice, consult a yoga therapist.</p>
-    </div>
+
+    <h2>Causes of Mental Stress</h2>
+    <ul>
+      <li><span class="highlight">Overthinking:</span> Continuous negative or anxious thoughts.</li>
+      <li><span class="highlight">Lack of Sleep:</span> Insufficient rest affecting mental peace.</li>
+      <li><span class="highlight">Poor Diet:</span> Junk food and caffeine increasing stress levels.</li>
+      <li><span class="highlight">Unmanaged Workload:</span> Excess responsibilities causing mental fatigue.</li>
+    </ul>
+
+    <h2>Yogic Therapy Cure</h2>
+    <p>Yoga and Pranayama calm the nervous system and bring balance to the mind. Recommended practices include:</p>
+
+    <h3>Asanas (Postures)</h3>
+    <ul>
+      <li><span class="highlight">Shavasana (Corpse Pose):</span> Lie down and relax for 5-10 minutes.</li>
+      <li><span class="highlight">Sukhasana (Easy Pose):</span> Meditative posture for 10-15 minutes.</li>
+      <li><span class="highlight">Balasana (Child's Pose):</span> Hold for 30-60 seconds.</li>
+    </ul>
+
+    <h3>Pranayama (Breathing Exercises)</h3>
+    <ul>
+      <li><span class="highlight">Anulom Vilom:</span> 5-10 minutes daily to balance nadis.</li>
+      <li><span class="highlight">Bhramari:</span> 5-7 repetitions for immediate relaxation.</li>
+      <li><span class="highlight">Nadi Shodhana:</span> Cleanses energy channels and calms the mind.</li>
+    </ul>
+
+    <h2>Dietary Recommendations</h2>
+    <ul>
+      <li>Consume <span class="highlight">fresh fruits</span> like bananas and berries.</li>
+      <li>Drink <span class="highlight">herbal teas</span> such as chamomile, tulsi, or ashwagandha.</li>
+      <li>Avoid stimulants like caffeine and excess sugar.</li>
+    </ul>
+
+    <h2>Lifestyle Changes</h2>
+    <ul>
+      <li>Practice daily <span class="highlight">meditation</span> (10–15 mins).</li>
+      <li>Limit screen time before sleeping for better melatonin production.</li>
+      <li>Engage in relaxing hobbies like music, art, journaling, or nature walks.</li>
+    </ul>
+
+    <h2>Precautions</h2>
+    <ul>
+      <li>Avoid overstimulating activities before bedtime.</li>
+      <li>Practice yoga and pranayama in a calm environment.</li>
+      <li>If anxiety continues, consult a yoga therapist or mental health expert.</li>
+    </ul>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2025 Calm Mind Therapy Guide | All Rights Reserved</p>
+    <p>For expert advice, consult a certified yoga therapist.</p>
+  </div>
+
 </body>
 </html>

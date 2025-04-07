@@ -1,116 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sugar Balance Therapy</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        .therapy-header {
-            background-color: #388E3C;
-            color: white;
-            padding: 30px;
-            font-size: 36px;
-            font-weight: bold;
-            text-transform: uppercase;
-            border-bottom: 5px solid #1B5E20;
-            letter-spacing: 2px;
-        }
-        .container {
-            max-width: 900px;
-            margin: 30px auto;
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-            text-align: left;
-        }
-        h2 {
-            color: #388E3C;
-            border-bottom: 3px solid #388E3C;
-            padding-bottom: 10px;
-            font-size: 26px;
-        }
-        p, ul {
-            font-size: 18px;
-            line-height: 1.8;
-        }
-        ul {
-            list-style-type: square;
-            margin-left: 20px;
-        }
-        .highlight {
-            font-weight: bold;
-            color: #D84315;
-        }
-        .footer {
-            background-color: #1B5E20;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 30px;
-            font-size: 18px;
-            border-top: 5px solid #388E3C;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sugar Balance Therapy</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f1f8e9;
+      color: #2f4f4f;
+    }
+
+    .therapy-header {
+      background: linear-gradient(to right, #388e3c, #66bb6a);
+      color: white;
+      padding: 30px;
+      font-size: 40px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-align: center;
+      border-bottom: 5px solid #388e3c;
+      animation: slideIn 1.5s ease-out;
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(-100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .container {
+      width: 100%;
+      padding: 40px 80px;
+      background-color: white;
+      box-sizing: border-box;
+    }
+
+    h2 {
+      color: #388e3c;
+      border-bottom: 3px solid #66bb6a;
+      padding-bottom: 8px;
+      font-size: 28px;
+    }
+
+    h3 {
+      color: #388e3c;
+      font-size: 22px;
+    }
+
+    p, ul {
+      font-size: 18px;
+      line-height: 1.7;
+    }
+
+    ul {
+      list-style-type: square;
+      margin-left: 40px;
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: #d84315;
+    }
+
+    .fact-box {
+      background-color: #e8f5e9;
+      border-left: 5px solid #66bb6a;
+      padding: 15px;
+      margin: 25px 0;
+      font-style: italic;
+    }
+
+    .footer {
+      background: linear-gradient(to right, #388e3c, #66bb6a);
+      color: white;
+      text-align: center;
+      padding: 25px;
+      font-size: 18px;
+      border-top: 5px solid #388e3c;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 30px 20px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      p, ul {
+        font-size: 16px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="therapy-header">Sugar Balance Therapy</div>
-    <div class="container">
-        <h2>Causes of Blood Sugar Imbalance</h2>
-        <p>Blood sugar levels can be affected by several factors:</p>
-        <ul>
-            <li><span class="highlight">Poor Diet:</span> High intake of processed sugar and refined carbs.</li>
-            <li><span class="highlight">Lack of Exercise:</span> Reduces insulin sensitivity.</li>
-            <li><span class="highlight">Stress & Poor Sleep:</span> Increases cortisol, leading to spikes in sugar levels.</li>
-            <li><span class="highlight">Dehydration:</span> Affects kidney function and blood sugar regulation.</li>
-        </ul>
-        
-        <h2>Yogic Therapy Cure</h2>
-        <h3>Asanas (Postures)</h3>
-        <ul>
-            <li><span class="highlight">Dhanurasana (Bow Pose):</span> Enhances pancreas function.</li>
-            <li><span class="highlight">Halasana (Plow Pose):</span> Improves metabolism.</li>
-            <li><span class="highlight">Ardha Matsyendrasana (Half Spinal Twist):</span> Helps in insulin regulation.</li>
-        </ul>
-        
-        <h3>Pranayama (Breathing Exercises)</h3>
-        <ul>
-            <li><span class="highlight">Kapalbhati:</span> 5 minutes for pancreas stimulation.</li>
-            <li><span class="highlight">Bhastrika:</span> Boosts oxygen supply and metabolism.</li>
-            <li><span class="highlight">Anulom Vilom:</span> Balances hormones.</li>
-        </ul>
-        
-        <h2>Dietary Recommendations</h2>
-        <ul>
-            <li>Include <span class="highlight">fiber-rich foods</span> like vegetables and whole grains.</li>
-            <li>Consume <span class="highlight">cinnamon and fenugreek</span> for better glucose control.</li>
-            <li>Avoid sugary beverages and processed food.</li>
-        </ul>
-        
-        <h2>Lifestyle Changes</h2>
-        <ul>
-            <li>Maintain a <span class="highlight">regular exercise routine</span>.</li>
-            <li>Stay hydrated and manage stress levels.</li>
-            <li>Follow a consistent sleep schedule.</li>
-        </ul>
-        
-        <h2>Precautions</h2>
-        <ul>
-            <li>Avoid excessive consumption of high glycemic index foods.</li>
-            <li>Monitor blood sugar levels regularly.</li>
-            <li>Consult a doctor if symptoms persist.</li>
-        </ul>
+
+  <div class="therapy-header">Sugar Balance Therapy</div>
+
+  <div class="container">
+    <h2>Introduction</h2>
+    <p>Blood sugar imbalance is a growing concern due to modern lifestyle habits. It can lead to conditions like diabetes, fatigue, mood swings, and weight issues. Maintaining healthy sugar levels is vital for long-term wellness and energy.</p>
+
+    <div class="fact-box">
+      🍃 <strong>Fact:</strong> Regular yoga practice can improve insulin sensitivity and help in natural sugar regulation.
     </div>
-    <div class="footer">
-        <p>&copy; 2025 Sugar Balance Therapy Guide | All Rights Reserved</p>
-        <p>For expert advice, consult a yoga therapist.</p>
-    </div>
+
+    <h2>Causes of Blood Sugar Imbalance</h2>
+    <ul>
+      <li><span class="highlight">Poor Diet:</span> High intake of processed sugar and refined carbs.</li>
+      <li><span class="highlight">Lack of Exercise:</span> Reduces insulin sensitivity.</li>
+      <li><span class="highlight">Stress & Poor Sleep:</span> Increases cortisol, leading to spikes in sugar levels.</li>
+      <li><span class="highlight">Dehydration:</span> Affects kidney function and blood sugar regulation.</li>
+    </ul>
+
+    <h2>Yogic Therapy Cure</h2>
+    <h3>Asanas (Postures)</h3>
+    <ul>
+      <li><span class="highlight">Dhanurasana (Bow Pose):</span> Enhances pancreas function.</li>
+      <li><span class="highlight">Halasana (Plow Pose):</span> Improves metabolism.</li>
+      <li><span class="highlight">Ardha Matsyendrasana (Half Spinal Twist):</span> Helps in insulin regulation.</li>
+    </ul>
+
+    <h3>Pranayama (Breathing Exercises)</h3>
+    <ul>
+      <li><span class="highlight">Kapalbhati:</span> 5 minutes for pancreas stimulation.</li>
+      <li><span class="highlight">Bhastrika:</span> Boosts oxygen supply and metabolism.</li>
+      <li><span class="highlight">Anulom Vilom:</span> Balances hormones and stress levels.</li>
+    </ul>
+
+    <h2>Dietary Recommendations</h2>
+    <ul>
+      <li>Include <span class="highlight">fiber-rich foods</span> like vegetables and whole grains.</li>
+      <li>Consume <span class="highlight">cinnamon and fenugreek</span> for better glucose control.</li>
+      <li>Avoid sugary beverages and processed food.</li>
+    </ul>
+
+    <h2>Lifestyle Changes</h2>
+    <ul>
+      <li>Maintain a <span class="highlight">regular exercise routine</span> (walks, yoga, cycling).</li>
+      <li>Stay hydrated and manage stress levels through relaxation techniques.</li>
+      <li>Follow a consistent sleep schedule and avoid late-night eating.</li>
+    </ul>
+
+    <h2>Precautions</h2>
+    <ul>
+      <li>Avoid excessive consumption of high glycemic index foods.</li>
+      <li>Monitor blood sugar levels regularly.</li>
+      <li>Consult a doctor or yoga therapist if symptoms persist.</li>
+    </ul>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2025 Sugar Balance Therapy Guide | All Rights Reserved</p>
+    <p>For expert advice, consult a certified yoga therapist.</p>
+  </div>
+
 </body>
 </html>
